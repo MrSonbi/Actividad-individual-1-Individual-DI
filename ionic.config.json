@@ -1,0 +1,7 @@
+{
+  "name": "Actividad-individual-1-Individual-DI",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
