@@ -1,0 +1,78 @@
+<ion-card role="region" [attr.aria-label]="title()">
+  <ion-card-header>
+    <ion-card-title>{{ title() }}</ion-card-title>
+  </ion-card-header>
+  
+  <ion-card-content>
+    <div class="table-controls" role="group" aria-label="Controles de tabla">
+      <ion-searchbar
+        [debounce]="300"
+        placeholder="Buscar..."
+        (ionInput)="onSearchChange($event)"
+        [attr.aria-label]="'Buscar en ' + title()"
+        tabindex="0">
+      </ion-searchbar>
+      
+      <div class="export-controls" *ngIf="enableExport()">
+        <ion-button fill="outline" size="small" (click)="exportCSV()" [attr.aria-label]="'Exportar ' + title() + ' a CSV'">
+          <ion-icon slot="start" name="document-text-outline"></ion-icon>
+          CSV
+        </ion-button>
+        <ion-button fill="outline" size="small" (click)="exportPDF()" [attr.aria-label]="'Exportar ' + title() + ' a PDF'">
+          <ion-icon slot="start" name="download-outline"></ion-icon>
+          PDF
+        </ion-button>
+      </div>
+    </div>
+
+    <div class="table-wrapper" role="table" [attr.aria-label]="title()">
+      <table>
+        <thead>
+          <tr role="row">
+            <th 
+              *ngFor="let col of columns()" 
+              role="columnheader"
+              [attr.tabindex]="col.sortable !== false ? 0 : -1"
+              [attr.aria-sort]="sortColumn() === col.key ? (sortDirection() === 'asc' ? 'ascending' : 'descending') : 'none'"
+              (click)="col.sortable !== false && onSort(col.key)"
+              (keydown.enter)="col.sortable !== false && onSort(col.key)"
+              (keydown.space)="col.sortable !== false && onSort(col.key); $event.preventDefault()"
+              [class.sortable]="col.sortable !== false">
+              {{ col.label }}
+              <span *ngIf="sortColumn() === col.key" aria-hidden="true">
+                {{ sortDirection() === 'asc' ? '↑' : '↓' }}
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of paginatedData()" role="row">
+            <td *ngFor="let col of columns()" role="cell">
+              {{ item[col.key] }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pagination" role="navigation" aria-label="Paginación de tabla">
+      <div class="page-size">
+        <ion-label>Mostrar:</ion-label>
+        <ion-select [value]="pageSize()" (ionChange)="onPageSizeChange($event)" interface="popover">
+          <ion-select-option *ngFor="let size of pageSizeOptions()" [value]="size">{{ size }}</ion-select-option>
+        </ion-select>
+      </div>
+      
+      <div class="page-info">
+        <span>Página {{ currentPage() }} de {{ totalPages() }} ({{ filteredData().length }} registros)</span>
+      </div>
+      
+      <div class="page-controls">
+        <ion-button fill="clear" size="small" [disabled]="currentPage() === 1" (click)="goToPage(1)" aria-label="Primera página">«</ion-button>
+        <ion-button fill="clear" size="small" [disabled]="currentPage() === 1" (click)="goToPage(currentPage() - 1)" aria-label="Página anterior">‹</ion-button>
+        <ion-button fill="clear" size="small" [disabled]="currentPage() === totalPages()" (click)="goToPage(currentPage() + 1)" aria-label="Página siguiente">›</ion-button>
+        <ion-button fill="clear" size="small" [disabled]="currentPage() === totalPages()" (click)="goToPage(totalPages())" aria-label="Última página">»</ion-button>
+      </div>
+    </div>
+  </ion-card-content>
+</ion-card>

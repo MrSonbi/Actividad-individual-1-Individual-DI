@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Iniciar Sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="login-container" role="main" aria-labelledby="login-title">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title id="login-title">
+          <ion-icon name="log-in-outline" aria-hidden="true"></ion-icon>
+          Acceso al Sistema
+        </ion-card-title>
+      </ion-card-header>
+      
+      <ion-card-content>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" novalidate role="form" aria-label="Formulario de inicio de sesión">
+          <ion-item lines="inset">
+            <ion-icon name="mail-outline" slot="start" aria-hidden="true"></ion-icon>
+            <ion-label position="floating">Correo Electrónico *</ion-label>
+            <ion-input
+              type="email"
+              formControlName="email"
+              autocomplete="email"
+              [attr.aria-required]="true"
+              [attr.aria-invalid]="email?.invalid && email?.touched"
+              [attr.aria-describedby]="email?.invalid && email?.touched ? 'email-error' : null"
+              tabindex="0">
+            </ion-input>
+          </ion-item>
+          <div class="error-message" id="email-error" *ngIf="email?.invalid && email?.touched" role="alert" aria-live="polite">
+            <ion-text color="danger" *ngIf="email?.errors?.['required']">El correo es requerido</ion-text>
+            <ion-text color="danger" *ngIf="email?.errors?.['email']">Formato de correo inválido</ion-text>
+          </div>
+
+          <ion-item lines="inset">
+            <ion-icon name="lock-closed-outline" slot="start" aria-hidden="true"></ion-icon>
+            <ion-label position="floating">Contraseña *</ion-label>
+            <ion-input
+              [type]="showPassword() ? 'text' : 'password'"
+              formControlName="password"
+              autocomplete="current-password"
+              [attr.aria-required]="true"
+              [attr.aria-invalid]="password?.invalid && password?.touched"
+              [attr.aria-describedby]="password?.invalid && password?.touched ? 'password-error' : null"
+              tabindex="0">
+            </ion-input>
+            <ion-button 
+              fill="clear" 
+              slot="end" 
+              (click)="togglePassword()" 
+              [attr.aria-label]="showPassword() ? 'Ocultar contraseña' : 'Mostrar contraseña'"
+              type="button"
+              tabindex="0">
+              <ion-icon [name]="showPassword() ? 'eye-off-outline' : 'eye-outline'" aria-hidden="true"></ion-icon>
+            </ion-button>
+          </ion-item>
+          <div class="error-message" id="password-error" *ngIf="password?.invalid && password?.touched" role="alert" aria-live="polite">
+            <ion-text color="danger" *ngIf="password?.errors?.['required']">La contraseña es requerida</ion-text>
+            <ion-text color="danger" *ngIf="password?.errors?.['minlength']">Mínimo 6 caracteres</ion-text>
+          </div>
+
+          <ion-text color="danger" *ngIf="errorMessage()" role="alert" aria-live="assertive">
+            <p class="error-message">{{ errorMessage() }}</p>
+          </ion-text>
+
+          <ion-button 
+            expand="block" 
+            type="submit" 
+            [disabled]="loginForm.invalid || isLoading()"
+            class="ion-margin-top"
+            [attr.aria-label]="isLoading() ? 'Iniciando sesión...' : 'Iniciar sesión'">
+            <ion-spinner *ngIf="isLoading()" name="crescent" aria-hidden="true"></ion-spinner>
+            <span *ngIf="!isLoading()">Iniciar Sesión</span>
+          </ion-button>
+
+          <div class="register-link">
+            <p>¿No tienes cuenta? <a routerLink="/register" tabindex="0">Regístrate aquí</a></p>
+          </div>
+        </form>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

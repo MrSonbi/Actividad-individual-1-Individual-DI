@@ -1,0 +1,47 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 1rem;
+}
+
+ion-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+}
+
+ion-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.error-message {
+  margin: 0.25rem 0 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 1rem;
+  
+  a {
+    color: var(--ion-color-primary);
+    text-decoration: none;
+    font-weight: 600;
+    
+    &:focus {
+      outline: 2px solid var(--ion-color-primary);
+      outline-offset: 2px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    padding: 2rem;
+  }
+}

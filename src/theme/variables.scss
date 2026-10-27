@@ -1,2 +1,93 @@
-// For information on how to create your own theme, please refer to:
-// https://ionicframework.com/docs/theming/
+/** Ionic CSS Variables **/
+:root {
+  /** Primary - Corporate Blue **/
+  --ion-color-primary: #2563eb;
+  --ion-color-primary-rgb: 37, 99, 235;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #2157cf;
+  --ion-color-primary-tint: #3b73ed;
+
+  /** Secondary - Indigo **/
+  --ion-color-secondary: #4f46e5;
+  --ion-color-secondary-rgb: 79, 70, 229;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #463ec9;
+  --ion-color-secondary-tint: #6159e8;
+
+  /** Tertiary - Slate **/
+  --ion-color-tertiary: #475569;
+  --ion-color-tertiary-rgb: 71, 85, 105;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #3e4b5d;
+  --ion-color-tertiary-tint: #596679;
+
+  /** Success **/
+  --ion-color-success: #059669;
+  --ion-color-success-rgb: 5, 150, 105;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #04835c;
+  --ion-color-success-tint: #1ea078;
+
+  /** Warning **/
+  --ion-color-warning: #d97706;
+  --ion-color-warning-rgb: 217, 119, 6;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255, 255, 255;
+  --ion-color-warning-shade: #bf6905;
+  --ion-color-warning-tint: #dd851f;
+
+  /** Danger **/
+  --ion-color-danger: #dc2626;
+  --ion-color-danger-rgb: 220, 38, 38;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #c22121;
+  --ion-color-danger-tint: #e03c3c;
+
+  /** Dark **/
+  --ion-color-dark: #1e293b;
+  --ion-color-dark-rgb: 30, 41, 59;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #1a2434;
+  --ion-color-dark-tint: #353e4f;
+
+  /** Medium - Better contrast for accessibility **/
+  --ion-color-medium: #475569;
+  --ion-color-medium-rgb: 71, 85, 105;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #3e4b5d;
+  --ion-color-medium-tint: #596679;
+
+  /** Light **/
+  --ion-color-light: #f8fafc;
+  --ion-color-light-rgb: 248, 250, 252;
+  --ion-color-light-contrast: #0f172a;
+  --ion-color-light-contrast-rgb: 15, 23, 42;
+  --ion-color-light-shade: #dadcde;
+  --ion-color-light-tint: #f9fbfc;
+
+  /** App background and surface **/
+  --ion-background-color: #f1f5f9;
+  --ion-background-color-rgb: 241, 245, 249;
+  --ion-text-color: #0f172a;
+  --ion-text-color-rgb: 15, 23, 42;
+  --ion-card-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-toolbar-background: var(--ion-color-primary);
+  --ion-toolbar-color: var(--ion-color-primary-contrast);
+
+  /** Border radius and shadows **/
+  --app-border-radius: 12px;
+  --app-border-radius-sm: 8px;
+  --app-border-radius-lg: 16px;
+  --app-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --app-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --app-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --app-shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}

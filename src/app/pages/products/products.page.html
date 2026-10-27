@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Gestión de Productos</ion-title>
+    <ion-button slot="end" fill="clear" (click)="signOut()" [attr.aria-label]="'Cerrar sesión'" tabindex="0">
+      <ion-icon slot="icon-only" name="logOutOutline" aria-hidden="true"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div role="main" aria-labelledby="products-title">
+    <h1 id="products-title" class="visually-hidden">Gestión de Productos</h1>
+    <app-data-table
+      [data]="products()"
+      [columns]="columns"
+      title="Listado de Productos">
+    </app-data-table>
+  </div>
+</ion-content>

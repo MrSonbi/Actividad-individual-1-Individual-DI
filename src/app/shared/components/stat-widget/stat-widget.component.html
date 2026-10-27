@@ -1,0 +1,21 @@
+<ion-card 
+  class="stat-card" 
+  [attr.role]="'article'"
+  [attr.aria-label]="title() + ': ' + value()"
+  tabindex="0">
+  <ion-card-content>
+    <div class="stat-content">
+      <div class="stat-info">
+        <p class="stat-title">{{ title() }}</p>
+        <h2 class="stat-value">{{ value() }}</h2>
+        <p class="stat-trend" *ngIf="trend() !== undefined" [class.positive]="trend()! >= 0">
+          <ion-icon name="trending-up-outline" aria-hidden="true"></ion-icon>
+          {{ trend()! >= 0 ? '+' : '' }}{{ trend() }}%
+        </p>
+      </div>
+      <div class="stat-icon" [attr.style]="'background-color: var(--ion-color-' + color() + '-tint)'">
+        <ion-icon [name]="icon()" [attr.style]="'color: var(--ion-color-' + color() + ')'" aria-hidden="true"></ion-icon>
+      </div>
+    </div>
+  </ion-card-content>
+</ion-card>

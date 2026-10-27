@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Gestión de Usuarios</ion-title>
+    <ion-button slot="end" fill="clear" (click)="signOut()" [attr.aria-label]="'Cerrar sesión'" tabindex="0">
+      <ion-icon slot="icon-only" name="logOutOutline" aria-hidden="true"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div role="main" aria-labelledby="users-title">
+    <h1 id="users-title" class="visually-hidden">Gestión de Usuarios</h1>
+    <app-data-table
+      [data]="users()"
+      [columns]="columns"
+      title="Listado de Usuarios">
+    </app-data-table>
+  </div>
+</ion-content>

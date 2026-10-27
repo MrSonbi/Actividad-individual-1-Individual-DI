@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Mi Perfil</ion-title>
+    <ion-button slot="end" fill="clear" (click)="signOut()" [attr.aria-label]="'Cerrar sesión'" tabindex="0">
+      <ion-icon slot="icon-only" name="logOutOutline" aria-hidden="true"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div role="main" aria-labelledby="profile-title">
+    <h1 id="profile-title" class="visually-hidden">Perfil de Usuario</h1>
+    
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon name="person-circle-outline" aria-hidden="true"></ion-icon>
+          Información del Usuario
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item lines="inset">
+          <ion-label>
+            <h2>Nombre</h2>
+            <p>{{ userProfile()?.full_name || 'No especificado' }}</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="inset">
+          <ion-label>
+            <h2>Correo Electrónico</h2>
+            <p>{{ userProfile()?.email }}</p>
+          </ion-label>
+        </ion-item>
+        <ion-item lines="none">
+          <ion-label>
+            <h2>Rol</h2>
+            <p>{{ userProfile()?.role === 'admin' ? 'Administrador' : 'Usuario' }}</p>
+          </ion-label>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card *ngIf="userProfile()?.role === 'admin'">
+      <ion-card-header>
+        <ion-card-title>Panel de Administración</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button expand="block" (click)="goToDashboard()" class="ion-margin-bottom" [attr.aria-label]="'Ir al cuadro de mando'">
+          <ion-icon slot="start" name="speedometer-outline" aria-hidden="true"></ion-icon>
+          Cuadro de Mando
+        </ion-button>
+        <ion-button expand="block" (click)="goToUsers()" class="ion-margin-bottom" [attr.aria-label]="'Gestionar usuarios'">
+          <ion-icon slot="start" name="people-outline" aria-hidden="true"></ion-icon>
+          Gestionar Usuarios
+        </ion-button>
+        <ion-button expand="block" (click)="goToProducts()" [attr.aria-label]="'Gestionar productos'">
+          <ion-icon slot="start" name="bag-outline" aria-hidden="true"></ion-icon>
+          Gestionar Productos
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

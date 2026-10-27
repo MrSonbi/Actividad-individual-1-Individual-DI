@@ -1,0 +1,65 @@
+.stat-card {
+  margin: 0;
+  height: 100%;
+  
+  &:focus {
+    outline: 2px solid var(--ion-color-primary);
+    outline-offset: 2px;
+  }
+}
+
+.stat-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.stat-info {
+  flex: 1;
+}
+
+.stat-title {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--ion-color-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  margin: 0.25rem 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--ion-color-dark);
+}
+
+.stat-trend {
+  margin: 0;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--ion-color-danger);
+
+  &.positive {
+    color: var(--ion-color-success);
+  }
+
+  ion-icon {
+    font-size: 1rem;
+  }
+}
+
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ion-icon {
+    font-size: 24px;
+  }
+}

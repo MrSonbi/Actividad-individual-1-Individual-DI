@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cuadro de Mando - Administrador</ion-title>
+    <ion-button slot="end" fill="clear" (click)="signOut()" [attr.aria-label]="'Cerrar sesión'" tabindex="0">
+      <ion-icon slot="icon-only" name="logOutOutline" aria-hidden="true"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div role="main" aria-labelledby="dashboard-title">
+    <h1 id="dashboard-title" class="visually-hidden">Cuadro de Mando Administrativo</h1>
+    
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" size-md="6">
+          <app-stat-widget
+            title="Total Productos"
+            [value]="stats().totalProducts"
+            icon="bag-outline"
+            color="primary">
+          </app-stat-widget>
+        </ion-col>
+        <ion-col size="12" size-md="6">
+          <app-stat-widget
+            title="Total Usuarios"
+            [value]="stats().totalUsers"
+            icon="people-outline"
+            color="success">
+          </app-stat-widget>
+        </ion-col>
+      </ion-row>
+      
+      <ion-row>
+        <ion-col size="12">
+          <ion-card role="region" aria-label="Gráfico de estadísticas">
+            <ion-card-content>
+              <div class="chart-placeholder" role="img" aria-label="Gráfico de barras mostrando {{ chartData().values[0] }} productos y {{ chartData().values[1] }} usuarios">
+                <h3>Estadísticas del Sistema</h3>
+                <div class="chart-bars">
+                  <div class="chart-bar-item">
+                    <div class="bar-label">Productos</div>
+                    <div class="bar-container">
+                      <div class="bar" [style.width.%]="chartData().values[0] > 0 ? (chartData().values[0] / Math.max(...chartData().values)) * 100 : 10" style="background-color: #3880ff;"></div>
+                    </div>
+                    <div class="bar-value">{{ chartData().values[0] }}</div>
+                  </div>
+                  <div class="chart-bar-item">
+                    <div class="bar-label">Usuarios</div>
+                    <div class="bar-container">
+                      <div class="bar" [style.width.%]="chartData().values[1] > 0 ? (chartData().values[1] / Math.max(...chartData().values)) * 100 : 10" style="background-color: #2dd36f;"></div>
+                    </div>
+                    <div class="bar-value">{{ chartData().values[1] }}</div>
+                  </div>
+                </div>
+              </div>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

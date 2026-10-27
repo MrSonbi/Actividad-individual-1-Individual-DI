@@ -1,0 +1,1545 @@
+﻿ÔØ» Building...
+node.exe : One or more browsers which are configured in the project's Browserslist configuration fall outside 
+Angular's browser support for this version.
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (One or more bro...r this version.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Unsupported browsers:
+chrome 118, chrome 117, chrome 116, chrome 115, chrome 114, chrome 113, chrome 112, chrome 111, chrome 110, chrome 
+109, chrome 108, chrome 107, edge 118, edge 117, edge 116, edge 115, edge 114, edge 113, edge 112, edge 111, edge 110, 
+edge 109, edge 108, edge 107, firefox 118, firefox 117, firefox 116, firefox 115, firefox 114, firefox 113, firefox 
+112, firefox 111, firefox 110, firefox 109, firefox 108, firefox 107, firefox 106, ios_saf 16.6-16.7, ios_saf 16.5, 
+ios_saf 16.4, ios_saf 16.3, ios_saf 16.2, ios_saf 16.1, safari 16.6, safari 16.5, safari 16.4, safari 16.3, safari 
+16.2, safari 16.1
+Ô£ö Building...
+Application bundle generation failed. [1.614 seconds] - 2026-10-27T16:09:20.350Z
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@ionic/angular/standalone"[0m
+
+    src/app/auth/login/login.page.ts:6:184:
+[37m      6 Ôöé ...n, IonSpinner, IonText, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The path "./standalone" is not exported by package "@ionic/angular":
+
+    node_modules/@ionic/angular/package.json:48:13:
+[37m      48 Ôöé   "exports": [32m{[37m
+         ÔòÁ              [32m^[0m
+
+  You can mark the path "@ionic/angular/standalone" as external to exclude it from the bundle, which will remove this 
+error and leave the unresolved path in the bundle.
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@ionic/angular/standalone"[0m
+
+    src/app/auth/register/register.page.ts:6:184:
+[37m      6 Ôöé ...n, IonSpinner, IonText, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The path "./standalone" is not exported by package "@ionic/angular":
+
+    node_modules/@ionic/angular/package.json:48:13:
+[37m      48 Ôöé   "exports": [32m{[37m
+         ÔòÁ              [32m^[0m
+
+  You can mark the path "@ionic/angular/standalone" as external to exclude it from the bundle, which will remove this 
+error and leave the unresolved path in the bundle.
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@ionic/angular/standalone"[0m
+
+    src/app/pages/dashboard/dashboard.page.ts:4:130:
+[37m      4 Ôöé ...onIcon, IonCard, IonCardContent } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The path "./standalone" is not exported by package "@ionic/angular":
+
+    node_modules/@ionic/angular/package.json:48:13:
+[37m      48 Ôöé   "exports": [32m{[37m
+         ÔòÁ              [32m^[0m
+
+  You can mark the path "@ionic/angular/standalone" as external to exclude it from the bundle, which will remove this 
+error and leave the unresolved path in the bundle.
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@ionic/angular/standalone"[0m
+
+    src/app/pages/products/products.page.ts:4:80:
+[37m      4 Ôöé ... IonToolbar, IonButton, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The path "./standalone" is not exported by package "@ionic/angular":
+
+    node_modules/@ionic/angular/package.json:48:13:
+[37m      48 Ôöé   "exports": [32m{[37m
+         ÔòÁ              [32m^[0m
+
+  You can mark the path "@ionic/angular/standalone" as external to exclude it from the bundle, which will remove this 
+error and leave the unresolved path in the bundle.
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@ionic/angular/standalone"[0m
+
+    src/app/pages/profile/profile.page.ts:4:153:
+[37m      4 Ôöé ...m, IonLabel, IonButton, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The path "./standalone" is not exported by package "@ionic/angular":
+
+    node_modules/@ionic/angular/package.json:48:13:
+[37m      48 Ôöé   "exports": [32m{[37m
+         ÔòÁ              [32m^[0m
+
+  You can mark the path "@ionic/angular/standalone" as external to exclude it from the bundle, which will remove this 
+error and leave the unresolved path in the bundle.
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@ionic/angular/standalone"[0m
+
+    src/app/pages/users/users.page.ts:4:80:
+[37m      4 Ôöé ... IonToolbar, IonButton, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The path "./standalone" is not exported by package "@ionic/angular":
+
+    node_modules/@ionic/angular/package.json:48:13:
+[37m      48 Ôöé   "exports": [32m{[37m
+         ÔòÁ              [32m^[0m
+
+  You can mark the path "@ionic/angular/standalone" as external to exclude it from the bundle, which will remove this 
+error and leave the unresolved path in the bundle.
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@ionic/angular/standalone"[0m
+
+    src/app/shared/components/data-table/data-table.component.ts:5:141:
+[37m      5 Ôöé ...lect, IonSelectOption, IonLabel } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The path "./standalone" is not exported by package "@ionic/angular":
+
+    node_modules/@ionic/angular/package.json:48:13:
+[37m      48 Ôöé   "exports": [32m{[37m
+         ÔòÁ              [32m^[0m
+
+  You can mark the path "@ionic/angular/standalone" as external to exclude it from the bundle, which will remove this 
+error and leave the unresolved path in the bundle.
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mCould not resolve "@ionic/angular/standalone"[0m
+
+    src/app/shared/components/stat-widget/stat-widget.component.ts:4:49:
+[37m      4 Ôöé ...onCard, IonCardContent, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  The path "./standalone" is not exported by package "@ionic/angular":
+
+    node_modules/@ionic/angular/package.json:48:13:
+[37m      48 Ôöé   "exports": [32m{[37m
+         ÔòÁ              [32m^[0m
+
+  You can mark the path "@ionic/angular/standalone" as external to exclude it from the bundle, which will remove this 
+error and leave the unresolved path in the bundle.
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@ionic/angular/standalone' or its 
+corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:5:184:
+[37m      5 Ôöé ...n, IonSpinner, IonText, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:17:4:
+[37m      17 Ôöé     [32mIonContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:17:4:
+[37m      17 Ôöé     [32mIonContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:18:4:
+[37m      18 Ôöé     [32mIonHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:18:4:
+[37m      18 Ôöé     [32mIonHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:19:4:
+[37m      19 Ôöé     [32mIonTitle[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:19:4:
+[37m      19 Ôöé     [32mIonTitle[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:20:4:
+[37m      20 Ôöé     [32mIonToolbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:20:4:
+[37m      20 Ôöé     [32mIonToolbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:21:4:
+[37m      21 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:21:4:
+[37m      21 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:22:4:
+[37m      22 Ôöé     [32mIonCardHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:22:4:
+[37m      22 Ôöé     [32mIonCardHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:23:4:
+[37m      23 Ôöé     [32mIonCardTitle[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:23:4:
+[37m      23 Ôöé     [32mIonCardTitle[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:24:4:
+[37m      24 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:24:4:
+[37m      24 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:25:4:
+[37m      25 Ôöé     [32mIonItem[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:25:4:
+[37m      25 Ôöé     [32mIonItem[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:26:4:
+[37m      26 Ôöé     [32mIonLabel[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:26:4:
+[37m      26 Ôöé     [32mIonLabel[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:27:4:
+[37m      27 Ôöé     [32mIonInput[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:27:4:
+[37m      27 Ôöé     [32mIonInput[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:28:4:
+[37m      28 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:28:4:
+[37m      28 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:29:4:
+[37m      29 Ôöé     [32mIonSpinner[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:29:4:
+[37m      29 Ôöé     [32mIonSpinner[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:30:4:
+[37m      30 Ôöé     [32mIonText[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:30:4:
+[37m      30 Ôöé     [32mIonText[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:31:4:
+[37m      31 Ôöé     [32mIonIcon[37m
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/login/login.page.ts:31:4:
+[37m      31 Ôöé     [32mIonIcon[37m
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@ionic/angular/standalone' or its 
+corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:5:184:
+[37m      5 Ôöé ...n, IonSpinner, IonText, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:17:4:
+[37m      17 Ôöé     [32mIonContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:17:4:
+[37m      17 Ôöé     [32mIonContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:18:4:
+[37m      18 Ôöé     [32mIonHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:18:4:
+[37m      18 Ôöé     [32mIonHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:19:4:
+[37m      19 Ôöé     [32mIonTitle[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:19:4:
+[37m      19 Ôöé     [32mIonTitle[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:20:4:
+[37m      20 Ôöé     [32mIonToolbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:20:4:
+[37m      20 Ôöé     [32mIonToolbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:21:4:
+[37m      21 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:21:4:
+[37m      21 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:22:4:
+[37m      22 Ôöé     [32mIonCardHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:22:4:
+[37m      22 Ôöé     [32mIonCardHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:23:4:
+[37m      23 Ôöé     [32mIonCardTitle[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:23:4:
+[37m      23 Ôöé     [32mIonCardTitle[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:24:4:
+[37m      24 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:24:4:
+[37m      24 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:25:4:
+[37m      25 Ôöé     [32mIonItem[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:25:4:
+[37m      25 Ôöé     [32mIonItem[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:26:4:
+[37m      26 Ôöé     [32mIonLabel[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:26:4:
+[37m      26 Ôöé     [32mIonLabel[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:27:4:
+[37m      27 Ôöé     [32mIonInput[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:27:4:
+[37m      27 Ôöé     [32mIonInput[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:28:4:
+[37m      28 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:28:4:
+[37m      28 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:29:4:
+[37m      29 Ôöé     [32mIonSpinner[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:29:4:
+[37m      29 Ôöé     [32mIonSpinner[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:30:4:
+[37m      30 Ôöé     [32mIonText[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:30:4:
+[37m      30 Ôöé     [32mIonText[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:31:4:
+[37m      31 Ôöé     [32mIonIcon[37m
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/auth/register/register.page
+.ts:31:4:
+[37m      31 Ôöé     [32mIonIcon[37m
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@ionic/angular/standalone' or its 
+corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:3:153:
+[37m      3 Ôöé ...m, IonLabel, IonButton, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:14:4:
+[37m      14 Ôöé     [32mIonContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:14:4:
+[37m      14 Ôöé     [32mIonContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:15:4:
+[37m      15 Ôöé     [32mIonHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:15:4:
+[37m      15 Ôöé     [32mIonHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:16:4:
+[37m      16 Ôöé     [32mIonTitle[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:16:4:
+[37m      16 Ôöé     [32mIonTitle[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:17:4:
+[37m      17 Ôöé     [32mIonToolbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:17:4:
+[37m      17 Ôöé     [32mIonToolbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:18:4:
+[37m      18 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:18:4:
+[37m      18 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:19:4:
+[37m      19 Ôöé     [32mIonCardHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:19:4:
+[37m      19 Ôöé     [32mIonCardHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:20:4:
+[37m      20 Ôöé     [32mIonCardTitle[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:20:4:
+[37m      20 Ôöé     [32mIonCardTitle[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:21:4:
+[37m      21 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:21:4:
+[37m      21 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:22:4:
+[37m      22 Ôöé     [32mIonItem[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:22:4:
+[37m      22 Ôöé     [32mIonItem[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:23:4:
+[37m      23 Ôöé     [32mIonLabel[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:23:4:
+[37m      23 Ôöé     [32mIonLabel[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:24:4:
+[37m      24 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:24:4:
+[37m      24 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:25:4:
+[37m      25 Ôöé     [32mIonIcon[37m
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/profile/profile.page.
+ts:25:4:
+[37m      25 Ôöé     [32mIonIcon[37m
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@ionic/angular/standalone' or its 
+corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/stat-widg
+et/stat-widget.component.ts:3:49:
+[37m      3 Ôöé ...onCard, IonCardContent, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/stat-widg
+et/stat-widget.component.ts:10:26:
+[37m      10 Ôöé   imports: [CommonModule, [32mIonCard[37m, IonCardContent, IonIcon],
+         ÔòÁ                           [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/stat-widg
+et/stat-widget.component.ts:10:26:
+[37m      10 Ôöé   imports: [CommonModule, [32mIonCard[37m, IonCardContent, IonIcon],
+         ÔòÁ                           [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/stat-widg
+et/stat-widget.component.ts:10:35:
+[37m      10 Ôöé   imports: [CommonModule, IonCard, [32mIonCardContent[37m, IonIcon],
+         ÔòÁ                                    [32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/stat-widg
+et/stat-widget.component.ts:10:35:
+[37m      10 Ôöé   imports: [CommonModule, IonCard, [32mIonCardContent[37m, IonIcon],
+         ÔòÁ                                    [32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/stat-widg
+et/stat-widget.component.ts:10:51:
+[37m      10 Ôöé   imports: [CommonModule, IonCard, IonCardContent, [32mIonIcon[37m],
+         ÔòÁ                                                    [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/stat-widg
+et/stat-widget.component.ts:10:51:
+[37m      10 Ôöé   imports: [CommonModule, IonCard, IonCardContent, [32mIonIcon[37m],
+         ÔòÁ                                                    [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@ionic/angular/standalone' or its 
+corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:3:130:
+[37m      3 Ôöé ...onIcon, IonCard, IonCardContent } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:15:4:
+[37m      15 Ôöé     [32mIonContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:15:4:
+[37m      15 Ôöé     [32mIonContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:16:4:
+[37m      16 Ôöé     [32mIonHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:16:4:
+[37m      16 Ôöé     [32mIonHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:17:4:
+[37m      17 Ôöé     [32mIonTitle[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:17:4:
+[37m      17 Ôöé     [32mIonTitle[37m,
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:18:4:
+[37m      18 Ôöé     [32mIonToolbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:18:4:
+[37m      18 Ôöé     [32mIonToolbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:19:4:
+[37m      19 Ôöé     [32mIonGrid[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:19:4:
+[37m      19 Ôöé     [32mIonGrid[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:20:4:
+[37m      20 Ôöé     [32mIonRow[37m,
+         ÔòÁ     [32m~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:20:4:
+[37m      20 Ôöé     [32mIonRow[37m,
+         ÔòÁ     [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:21:4:
+[37m      21 Ôöé     [32mIonCol[37m,
+         ÔòÁ     [32m~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:21:4:
+[37m      21 Ôöé     [32mIonCol[37m,
+         ÔòÁ     [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:22:4:
+[37m      22 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:22:4:
+[37m      22 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:23:4:
+[37m      23 Ôöé     [32mIonIcon[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:23:4:
+[37m      23 Ôöé     [32mIonIcon[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:24:4:
+[37m      24 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:24:4:
+[37m      24 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:25:4:
+[37m      25 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/dashboard/dashboard.p
+age.ts:25:4:
+[37m      25 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@ionic/angular/standalone' or its 
+corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:4:141:
+[37m      4 Ôöé ...lect, IonSelectOption, IonLabel } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:22:4:
+[37m      22 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:22:4:
+[37m      22 Ôöé     [32mIonCard[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:23:4:
+[37m      23 Ôöé     [32mIonCardHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:23:4:
+[37m      23 Ôöé     [32mIonCardHeader[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:24:4:
+[37m      24 Ôöé     [32mIonCardTitle[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:24:4:
+[37m      24 Ôöé     [32mIonCardTitle[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:25:4:
+[37m      25 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:25:4:
+[37m      25 Ôöé     [32mIonCardContent[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:26:4:
+[37m      26 Ôöé     [32mIonSearchbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:26:4:
+[37m      26 Ôöé     [32mIonSearchbar[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:27:4:
+[37m      27 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:27:4:
+[37m      27 Ôöé     [32mIonButton[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:28:4:
+[37m      28 Ôöé     [32mIonIcon[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:28:4:
+[37m      28 Ôöé     [32mIonIcon[37m,
+         ÔòÁ     [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:29:4:
+[37m      29 Ôöé     [32mIonSelect[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:29:4:
+[37m      29 Ôöé     [32mIonSelect[37m,
+         ÔòÁ     [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:30:4:
+[37m      30 Ôöé     [32mIonSelectOption[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:30:4:
+[37m      30 Ôöé     [32mIonSelectOption[37m,
+         ÔòÁ     [32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:31:4:
+[37m      31 Ôöé     [32mIonLabel[37m
+         ÔòÁ     [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/shared/components/data-tabl
+e/data-table.component.ts:31:4:
+[37m      31 Ôöé     [32mIonLabel[37m
+         ÔòÁ     [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@ionic/angular/standalone' or its 
+corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    
+C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:3:80:
+[37m      3 Ôöé ... IonToolbar, IonButton, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:26:
+[37m      13 Ôöé   imports: [CommonModule, [32mIonContent[37m, IonHeader, IonTitle, IonTool...
+         ÔòÁ                           [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:26:
+[37m      13 Ôöé   imports: [CommonModule, [32mIonContent[37m, IonHeader, IonTitle, IonTool...
+         ÔòÁ                           [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:38:
+[37m      13 Ôöé ...[CommonModule, IonContent, [32mIonHeader[37m, IonTitle, IonToolbar, Ion...
+         ÔòÁ                               [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:38:
+[37m      13 Ôöé ...[CommonModule, IonContent, [32mIonHeader[37m, IonTitle, IonToolbar, Ion...
+         ÔòÁ                               [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:49:
+[37m      13 Ôöé ...ule, IonContent, IonHeader, [32mIonTitle[37m, IonToolbar, IonButton, Io...
+         ÔòÁ                                [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:49:
+[37m      13 Ôöé ...ule, IonContent, IonHeader, [32mIonTitle[37m, IonToolbar, IonButton, Io...
+         ÔòÁ                                [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:59:
+[37m      13 Ôöé ...tent, IonHeader, IonTitle, [32mIonToolbar[37m, IonButton, IonIcon, Data...
+         ÔòÁ                               [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:59:
+[37m      13 Ôöé ...tent, IonHeader, IonTitle, [32mIonToolbar[37m, IonButton, IonIcon, Data...
+         ÔòÁ                               [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:71:
+[37m      13 Ôöé ...der, IonTitle, IonToolbar, [32mIonButton[37m, IonIcon, DataTableCompone...
+         ÔòÁ                               [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:71:
+[37m      13 Ôöé ...der, IonTitle, IonToolbar, [32mIonButton[37m, IonIcon, DataTableCompone...
+         ÔòÁ                               [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:82:
+[37m      13 Ôöé ...er, IonTitle, IonToolbar, IonButton, [32mIonIcon[37m, DataTableComponent],
+         ÔòÁ                                         [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/users/users.page.ts:1
+3:82:
+[37m      13 Ôöé ...er, IonTitle, IonToolbar, IonButton, [32mIonIcon[37m, DataTableComponent],
+         ÔòÁ                                         [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2307: Cannot find module '@ionic/angular/standalone' or its 
+corresponding type declarations.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:3:80:
+[37m      3 Ôöé ... IonToolbar, IonButton, IonIcon } from [32m'@ionic/angular/standalone'[37m;
+        ÔòÁ                                           [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:26:
+[37m      13 Ôöé   imports: [CommonModule, [32mIonContent[37m, IonHeader, IonTitle, IonTool...
+         ÔòÁ                           [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:26:
+[37m      13 Ôöé   imports: [CommonModule, [32mIonContent[37m, IonHeader, IonTitle, IonTool...
+         ÔòÁ                           [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:38:
+[37m      13 Ôöé ...[CommonModule, IonContent, [32mIonHeader[37m, IonTitle, IonToolbar, Ion...
+         ÔòÁ                               [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:38:
+[37m      13 Ôöé ...[CommonModule, IonContent, [32mIonHeader[37m, IonTitle, IonToolbar, Ion...
+         ÔòÁ                               [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:49:
+[37m      13 Ôöé ...ule, IonContent, IonHeader, [32mIonTitle[37m, IonToolbar, IonButton, Io...
+         ÔòÁ                                [32m~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:49:
+[37m      13 Ôöé ...ule, IonContent, IonHeader, [32mIonTitle[37m, IonToolbar, IonButton, Io...
+         ÔòÁ                                [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:59:
+[37m      13 Ôöé ...tent, IonHeader, IonTitle, [32mIonToolbar[37m, IonButton, IonIcon, Data...
+         ÔòÁ                               [32m~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:59:
+[37m      13 Ôöé ...tent, IonHeader, IonTitle, [32mIonToolbar[37m, IonButton, IonIcon, Data...
+         ÔòÁ                               [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:71:
+[37m      13 Ôöé ...der, IonTitle, IonToolbar, [32mIonButton[37m, IonIcon, DataTableCompone...
+         ÔòÁ                               [32m~~~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:71:
+[37m      13 Ôöé ...der, IonTitle, IonToolbar, [32mIonButton[37m, IonIcon, DataTableCompone...
+         ÔòÁ                               [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG1010: 'imports' must be an array of components, directives, pipes, or 
+NgModules.
+  Value could not be determined statically.[0m [1m[35m[plugin angular-compiler][0m
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:82:
+[37m      13 Ôöé ...er, IonTitle, IonToolbar, IonButton, [32mIonIcon[37m, DataTableComponent],
+         ÔòÁ                                         [32m~~~~~~~[0m
+
+  Unknown reference.
+
+    C:/Users/Sonbi/Documents/UDIT_2026-2027/DI/Actividad-individual-1-Individual-DI/src/app/pages/products/products.pag
+e.ts:13:82:
+[37m      13 Ôöé ...er, IonTitle, IonToolbar, IonButton, [32mIonIcon[37m, DataTableComponent],
+         ÔòÁ                                         [32m~~~~~~~[0m
+
+
